@@ -768,7 +768,7 @@ exports.init = init;
 })());
             const templateError = "Bad password!",
                 isRememberEnabled = true,
-                staticryptConfig = {"staticryptEncryptedMsgUniqueVariableName":"6bb2fa7f12dd01e86c7201a679d5b74fdcbc67835f9220d21d5899a8365d227a8b8eeeca77dd6414f474dc0c21e6e2af81dd0e9a94b1edbd54b1c4a08e12992ce4f0d9771c05b9fd1aa160688b7cef6c3d70edffdd5787d5254e30cd2459601fc715daeaef0cc06b3261ededd3c87dcd1a65daa2fb910c3cac0747730fde68ad19a0ba5410b981f67bf69d21a59065a929aa50c792252ab31b4333c78bf44bbc","isRememberEnabled":true,"rememberDurationInDays":0,"staticryptSaltUniqueVariableName":"731e88edaffa707c0029a6b34fd23319"};
+                staticryptConfig = {"staticryptEncryptedMsgUniqueVariableName":"1f21f4e44079913a61be2c31198b2cf67548c2d382209ab74a0415925eed202a3dfce10ee4d9a154a60f96385ed31567bc1bb4d0f3b69bf874193fd8d5256e6ffdb57784d26ec8eaa6d25ca6b07eb736f84b506d944348a8b5c836d71ef26bafc7eb7012a15ccbeb02756e2afcaf42466d18caf77d2a489ead788b690795c1544a38fd79030a84267e17d22698cd3e01059d5ddf3a3f02798498e9cbce9ebf13","isRememberEnabled":true,"rememberDurationInDays":0,"staticryptSaltUniqueVariableName":"731e88edaffa707c0029a6b34fd23319"};
 
             // you can edit these values to customize some of the behavior of StatiCrypt
             const templateConfig = {
