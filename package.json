@@ -1,0 +1,18 @@
+{
+  "name": "docs_template_api_layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "staticrypt": "staticrypt docs/index.html -r -d docs -p IloveHNTS@2021",
+    "staticdecrypt": "staticrypt docs/* -r -d docs -p IloveHNTS@2021 --decrypt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "staticrypt": "^3.3.1"
+  }
+}

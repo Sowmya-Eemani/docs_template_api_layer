@@ -119,9 +119,9 @@ venv.bak/
 
 # mkdocs documentation
 /node_modules
-/.staticrypt.json
-/package-lock.json
-/package.json
+# /.staticrypt.json
+# /package-lock.json
+# /package.json
 
 # mypy
 .mypy_cache/
